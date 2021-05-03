@@ -1,4 +1,5 @@
 {
+	"homepage": "https://agusrezett.github.io/3_Column_Card/",
 	"name": "fm-3column",
 	"version": "0.1.0",
 	"private": true,
@@ -16,7 +17,8 @@
 	},
 	"scripts": {
 		"start": "react-scripts start",
-		"predeploy": "purgecss --css css/styles.css --content index.js -o css/reducido.css",
+		"deploy": "gh-pages -d build",
+		"predeploy": "purgecss --css src/css/styles.css --content src/index.js -o src/css/reducido.css",
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject"
